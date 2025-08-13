@@ -1,4 +1,4 @@
-// /src/dice.jsx
+// src/dice.jsx
 import diceBlue01 from './assets/dice-blue-1.svg';
 import diceBlue02 from './assets/dice-blue-2.svg';
 import diceBlue03 from './assets/dice-blue-3.svg';
