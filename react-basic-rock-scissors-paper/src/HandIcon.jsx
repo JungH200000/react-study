@@ -10,9 +10,9 @@ const SHAPE_IMAGE = {
   paper: paperImg,
 };
 
-function HandIcon({ value }) {
+function HandIcon({ className, value }) {
   const src = SHAPE_IMAGE[value];
-  return <img src={src} alt={value}></img>;
+  return <img className={className} src={src} alt={value}></img>;
 }
 
 export default HandIcon;
