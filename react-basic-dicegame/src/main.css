@@ -1,5 +1,10 @@
 /* src/main.css */
+* {
+  box-sizing: border-box;
+}
 body {
+  min-width: 100vw;
+  height: 100vh;
   background-color: #191f2c;
   color: #fff;
 }

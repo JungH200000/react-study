@@ -1,0 +1,10 @@
+/* src/Board.css */
+.Board .userName {
+  margin: 30px 0 20px;
+}
+.Board .board-item {
+  margin-bottom: 10px;
+}
+.Board p {
+  margin: 10px 0 30px 0;
+}

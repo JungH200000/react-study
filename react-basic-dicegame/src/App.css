@@ -1,4 +1,37 @@
 /* src/App.css */
+.App {
+  min-width: 700px;
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column; /* 자식들을 세로로 쌓음 */
+  align-items: center; /* 수직 정렬 */
+  gap: 10px;
+}
+
 .App .App-button {
   margin: 6px;
+}
+
+.App-logo {
+  width: 200px;
+}
+.App-title {
+  font-size: 30px;
+  margin: 20px 0 30px 0;
+}
+
+.Boards {
+  display: grid; /* 내부 아이템은 grid로 관리 */
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.Board {
+  width: 350px;
+  min-height: 450px;
+  margin: 30px 0;
+  background-color: #272b38;
+  border-radius: 20px;
 }
