@@ -38,7 +38,7 @@ function App() {
           처음부터
         </Button>
       </div>
-      <div className="App-boards">
+      <div className="App-Boards">
         <div className="Boards">
           <Board className="Board" name="사용자" color="blue" gameHistory={myHistory} />
           <Board className="Board" name="상대" color="red" gameHistory={otherHistory} />
