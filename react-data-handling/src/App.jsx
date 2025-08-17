@@ -1,35 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import ReviewList from './components/ReviewList';
+import mockItems from './mock.json';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [items, setItems] = useState(mockItems);
+  const [order, setOrder] = useState('createdAt');
+  const sortedItems = [...items].sort((a, b) => b[order] - a[order]);
 
+  const handleNewestClick = () => setOrder('createdAt');
+  const handleBestClick = () => setOrder('rating');
+
+  const handleDelete = (id) => {
+    const nextItems = items.filter((item) => item.id !== id);
+    setItems(nextItems);
+  };
+  // id를 parameter로 받아와서 해당 id를 가진 요소를 filter메소드로 걸러내고, nextItems에 지정
+  // react가 재렌더링하면 화면에 반영됨
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <div>
+          <button onClick={handleNewestClick}>최신순</button>
+          <button onClick={handleBestClick}>베스트순</button>
+        </div>
+        <ReviewList items={sortedItems} onDelete={handleDelete} />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

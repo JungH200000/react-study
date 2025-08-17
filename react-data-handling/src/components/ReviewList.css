@@ -1,0 +1,15 @@
+/* src/components/ReviewList.css */
+.ReviewListItem {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.ReviewListItem-img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  /* object-fit: cover;
+    이미지가 가로/세로 중 더 긴 쪽을 기준으로 부모 컨테이너를 채움
+    비율 유지는 된다. */
+  margin-right: 20px;
+}

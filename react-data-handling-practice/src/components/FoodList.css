@@ -1,0 +1,8 @@
+/* src/components/FoodList.css */
+.FoodList {
+  list-style: none;
+  padding: 0;
+}
+.FoodListItem {
+  margin: 10px;
+}
