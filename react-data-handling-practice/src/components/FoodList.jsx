@@ -23,13 +23,11 @@ function FoodListItem({ item, onDelete }) {
 function FoodList({ items, onDelete }) {
   return (
     <ul>
-      {items.map((item) => {
-        return (
-          <li id={item.key}>
-            <FoodListItem item={item} onDelete={onDelete} />
-          </li>
-        );
-      })}
+      {items.map((item) => (
+        <li key={item.id}>
+          <FoodListItem item={item} onDelete={onDelete} />
+        </li>
+      ))}
     </ul>
   );
 }

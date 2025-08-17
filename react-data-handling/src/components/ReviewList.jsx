@@ -26,13 +26,11 @@ function ReviewListItem({ item, onDelete }) {
 function ReviewList({ items, onDelete }) {
   return (
     <ul>
-      {items.map((item) => {
-        return (
-          <li key={item.id}>
-            <ReviewListItem item={item} onDelete={onDelete} />
-          </li>
-        );
-      })}
+      {items.map((item) => (
+        <li key={item.id}>
+          <ReviewListItem item={item} onDelete={onDelete} />
+        </li>
+      ))}
     </ul>
   );
 }
