@@ -1,4 +1,4 @@
-// src/components/FoodList.jsx
+// react-data-handling-practice/src/components/FoodList.jsx
 import './FoodList.css';
 
 function FoodListItem({ item, onDelete }) {

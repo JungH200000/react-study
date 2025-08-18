@@ -1,4 +1,4 @@
-// src/components/ReviewList.jsx
+// react-data-handling/src/components/ReviewList.jsx
 import './ReviewList.css';
 
 function formatDate(value) {
