@@ -1,4 +1,4 @@
-// react-basic01-pracitce/src/utils.jsx
+// react-basic01-practice/src/utils.jsx
 const HANDS = ['rock', 'scissor', 'paper'];
 
 const WINS = {

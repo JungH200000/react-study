@@ -1,5 +1,5 @@
-// react-basic01-pracitce/
-// react-basic01-pracitce/src/main.jsx
+// react-basic01-practice/
+// react-basic01-practice/src/main.jsx
 
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';

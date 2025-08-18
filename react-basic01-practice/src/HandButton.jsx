@@ -1,4 +1,4 @@
-// react-basic01-pracitce/src/HandButton.jsx
+// react-basic01-practice/src/HandButton.jsx
 import HandIcon from './HandIcon';
 import './HandButton.css';
 
