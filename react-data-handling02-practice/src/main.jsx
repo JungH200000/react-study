@@ -1,5 +1,5 @@
-// react-data-handling-practice/
-// react-data-handling-practice/src/main.jsx
+// react-data-handling02-practice/
+// react-data-handling02-practice/src/main.jsx
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.jsx';

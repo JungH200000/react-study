@@ -1,4 +1,4 @@
-// src/App.jsx
+// react-basic01/src/App.jsx
 import { useState } from 'react';
 import Board from './Board.jsx';
 import Button from './Button.jsx';

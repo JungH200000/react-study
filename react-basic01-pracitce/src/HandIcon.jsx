@@ -1,4 +1,4 @@
-// /src/HandIcon.jsx
+// react-basic01-pracitce/src/HandIcon.jsx
 // 가위바위보 모양의 아이콘을 보여주는 컴포넌트
 import rockImg from './assets/rock.svg';
 import scissorImg from './assets/scissor.svg';

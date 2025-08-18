@@ -1,4 +1,4 @@
-// src/Button.jsx
+// react-basic01/src/Button.jsx
 // '던지기', '처음부터' 버튼
 import './Button.css';
 

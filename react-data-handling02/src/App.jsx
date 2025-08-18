@@ -1,4 +1,4 @@
-// react-data-handling/src/App.jsx
+// react-data-handling02/App.jsx
 import { useState } from 'react';
 import ReviewList from './components/ReviewList';
 import { getReviews } from './api';

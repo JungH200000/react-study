@@ -1,5 +1,5 @@
-// react-basic-dicegame/
-// src/main.jsx
+// react-basic01/
+// react-basic01/src/main.jsx
 
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';

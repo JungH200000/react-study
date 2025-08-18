@@ -1,4 +1,4 @@
-// /src/App.jsx
+// react-basic01-pracitce/src/App.jsx
 import { useState } from 'react';
 import Button from './Button.jsx';
 import HandButton from './HandButton.jsx';

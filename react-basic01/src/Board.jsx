@@ -1,4 +1,4 @@
-// src/Board.jsx
+// react-basic01/src/Board.jsx
 import Dice from './Dice.jsx';
 import './Board.css';
 

@@ -1,5 +1,5 @@
-// react-basic-rock-scissors-paper/
-// /src/main.jsx
+// react-basic01-pracitce/
+// react-basic01-pracitce/src/main.jsx
 
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';

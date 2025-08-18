@@ -1,4 +1,4 @@
-// react-data-handling-practice/src/App.jsx
+// react-data-handling02-practice/src/App.jsx
 import { useState } from 'react';
 import FoodList from './components/FoodList.jsx';
 import { getFoods } from './api.js';
